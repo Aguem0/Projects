@@ -1,0 +1,134 @@
+.container {
+  width: 80%;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  border-bottom: 2px solid #333;  /* 下边框 */
+  padding: 10px 0;
+  margin-bottom: 20px;  /* 边距 */
+}
+
+.content {
+  display: flex;
+  padding: 20px;
+}
+
+.content img {
+  width:350px;
+  height: 200px;
+}
+
+.register-form {
+  width: 55%;
+  text-align: left;
+}
+
+.register-form form {
+  display: flex;    /* 弹性布局 */
+  flex-direction: column;   
+}
+
+.register-form form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.register-form form button {
+  padding: 10px 20px;
+  background-color: #c96b5d;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.register-form form a {
+  color: #c96b5d;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.container .info-text .info-titlel{
+    background-color: #BD7569;
+    padding:8px 12px;
+    width: 120px;
+    text-align: center;
+    color:white;
+    font-size: 18px;
+    margin-bottom: 12px;
+	position: relative;
+	right: -390px;
+	top: 20px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.content img {
+  width: 40%;
+}
+
+.login-form {
+  width: 55%;
+  text-align: left;
+}
+
+.login-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login-form form button {
+  padding: 10px 20px;
+  background-color: #c96b5d;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-form form a {
+  color: #c96b5d;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.container .info-titlel{
+    background-color: #BD7569;
+    padding:8px 12px;
+    width: 120px;
+    text-align: center;
+    color:white;
+    font-size: 18px;
+    margin-bottom: 12px;
+	position: relative;
+	right: -390px;
+	top: 20px;
+}
+.container .info-titlel{
+    background-color: #BD7569;
+    padding:8px 12px;
+    width: 120px;
+    text-align: center;
+    color:white;
+    font-size: 18px;
+    margin-bottom: 12px;
+	position: relative;
+	right: -390px;
+	top: 20px;
+}

@@ -1,0 +1,35 @@
+.character-container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.character {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.character img {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.character-info {
+  flex: 1;
+}
+
+.character-name {
+  background-color: #c96b5d;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.character-desc {
+  line-height: 1.6;
+}
