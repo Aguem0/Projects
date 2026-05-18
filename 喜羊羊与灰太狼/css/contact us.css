@@ -1,0 +1,48 @@
+.contact-container {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  background-color: white;
+}
+
+.contact-content {
+  display: flex;
+  width: 100%;
+}
+
+.contact-content img {
+  width: 400px;
+  height: 290px;
+  position: relative;
+  right: 0px;
+  top: 40px;
+}
+
+.contact-form {
+  width: 60%;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px; /* 底部边距 */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px; 
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+#a{
+	padding: 10px 192px;
+	background-color: #c96b5d;
+	border: none;
+	color: white;
+	cursor: pointer;/* 光标 */
+}
